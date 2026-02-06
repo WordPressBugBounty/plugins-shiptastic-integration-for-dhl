@@ -1,8 +1,8 @@
 <?php return array(
     'root' => array(
         'name' => 'vendidero/shiptastic-integration-for-dhl',
-        'pretty_version' => '4.1.4',
-        'version' => '4.1.4.0',
+        'pretty_version' => '4.1.7',
+        'version' => '4.1.7.0',
         'reference' => null,
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
@@ -41,8 +41,8 @@
             ),
         ),
         'vendidero/shiptastic-integration-for-dhl' => array(
-            'pretty_version' => '4.1.4',
-            'version' => '4.1.4.0',
+            'pretty_version' => '4.1.7',
+            'version' => '4.1.7.0',
             'reference' => null,
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',

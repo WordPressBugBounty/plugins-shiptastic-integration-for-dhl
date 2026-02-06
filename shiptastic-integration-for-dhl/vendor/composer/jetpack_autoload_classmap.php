@@ -483,223 +483,223 @@ return array(
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-shutdown-handler.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Admin\\Admin' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Admin/Admin.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Admin\\Importer\\DHL' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Admin/Importer/DHL.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Admin\\Importer\\Internetmarke' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Admin/Importer/Internetmarke.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Ajax' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Ajax.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Api\\ApiKeyAuth' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Api/ApiKeyAuth.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Api\\AuthSoap' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Api/AuthSoap.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Api\\BasicAuthPaket' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Api/BasicAuthPaket.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Api\\BasicAuthParcelServices' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Api/BasicAuthParcelServices.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Api\\BasicAuthParcelTracking' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Api/BasicAuthParcelTracking.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Api\\ImProductList' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Api/ImProductList.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Api\\ImProductsSoap' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Api/ImProductsSoap.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Api\\Internetmarke' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Api/Internetmarke.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Api\\InternetmarkeAuth' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Api/InternetmarkeAuth.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Api\\InternetmarkeRest' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Api/InternetmarkeRest.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Api\\LabelRest' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Api/LabelRest.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Api\\LabelSoap' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Api/LabelSoap.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Api\\LocationFinder' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Api/LocationFinder.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Api\\MyAccount' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Api/MyAccount.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Api\\OAuthPaket' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Api/OAuthPaket.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Api\\Paket' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Api/Paket.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Api\\PaketRest' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Api/PaketRest.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Api\\ParcelServices' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Api/ParcelServices.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Api\\ParcelTracking' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Api/ParcelTracking.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Api\\ReturnRest' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Api/ReturnRest.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Api\\Soap' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Api/Soap.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Blocks\\Assets' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Blocks/Assets.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Blocks\\Integrations\\PreferredServices' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Blocks/Integrations/PreferredServices.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Blocks\\PreferredServices' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Blocks/PreferredServices.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Bootstrap' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Bootstrap.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Install' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Install.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Label\\DHL' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Label/DHL.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Label\\DHLInlayReturn' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Label/DHLInlayReturn.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Label\\DHLReturn' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Label/DHLReturn.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Label\\DeutschePost' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Label/DeutschePost.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Label\\DeutschePostReturn' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Label/DeutschePostReturn.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Label\\Label' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Label/Label.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Label\\ReturnLabel' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Label/ReturnLabel.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Order' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Order.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Package' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Package.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\ParcelLocator' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/ParcelLocator.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\ParcelServices' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/ParcelServices.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\Product' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/Product.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\ShippingProvider\\DHL' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/ShippingProvider/DHL.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\ShippingProvider\\DeutschePost' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/ShippingProvider/DeutschePost.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\ShippingProvider\\PickupDeliveryTrait' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/ShippingProvider/PickupDeliveryTrait.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\ShippingProvider\\PickupLocation' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/ShippingProvider/PickupLocation.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\ShippingProvider\\Services\\AdditionalInsurance' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/ShippingProvider/Services/AdditionalInsurance.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\ShippingProvider\\Services\\CashOnDelivery' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/ShippingProvider/Services/CashOnDelivery.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\ShippingProvider\\Services\\ClosestDropPoint' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/ShippingProvider/Services/ClosestDropPoint.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\ShippingProvider\\Services\\DHLRetoure' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/ShippingProvider/Services/DHLRetoure.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\ShippingProvider\\Services\\IdentCheck' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/ShippingProvider/Services/IdentCheck.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\ShippingProvider\\Services\\PreferredDay' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/ShippingProvider/Services/PreferredDay.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\ShippingProvider\\Services\\PreferredLocation' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/ShippingProvider/Services/PreferredLocation.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\ShippingProvider\\Services\\PreferredNeighbour' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/ShippingProvider/Services/PreferredNeighbour.php'
 	),
 	'Vendidero\\Shiptastic\\DHL\\ShippingProvider\\Services\\VisualCheckOfAge' => array(
-		'version' => '4.1.4.0',
+		'version' => '4.1.7.0',
 		'path'    => $baseDir . '/src/ShippingProvider/Services/VisualCheckOfAge.php'
 	),
 	'Version_Loader' => array(
