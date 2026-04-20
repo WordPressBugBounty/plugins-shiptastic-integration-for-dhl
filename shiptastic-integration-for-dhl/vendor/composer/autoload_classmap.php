@@ -129,7 +129,6 @@ return array(
     'Vendidero\\Shiptastic\\DHL\\Api\\InternetmarkeAuth' => $baseDir . '/src/Api/InternetmarkeAuth.php',
     'Vendidero\\Shiptastic\\DHL\\Api\\InternetmarkeRest' => $baseDir . '/src/Api/InternetmarkeRest.php',
     'Vendidero\\Shiptastic\\DHL\\Api\\LabelRest' => $baseDir . '/src/Api/LabelRest.php',
-    'Vendidero\\Shiptastic\\DHL\\Api\\LabelSoap' => $baseDir . '/src/Api/LabelSoap.php',
     'Vendidero\\Shiptastic\\DHL\\Api\\LocationFinder' => $baseDir . '/src/Api/LocationFinder.php',
     'Vendidero\\Shiptastic\\DHL\\Api\\MyAccount' => $baseDir . '/src/Api/MyAccount.php',
     'Vendidero\\Shiptastic\\DHL\\Api\\OAuthPaket' => $baseDir . '/src/Api/OAuthPaket.php',

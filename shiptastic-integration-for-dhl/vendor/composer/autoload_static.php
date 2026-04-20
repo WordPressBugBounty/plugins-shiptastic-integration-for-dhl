@@ -160,7 +160,6 @@ class ComposerStaticInite7f4626ebf62a16291e4453108118b89
         'Vendidero\\Shiptastic\\DHL\\Api\\InternetmarkeAuth' => __DIR__ . '/../..' . '/src/Api/InternetmarkeAuth.php',
         'Vendidero\\Shiptastic\\DHL\\Api\\InternetmarkeRest' => __DIR__ . '/../..' . '/src/Api/InternetmarkeRest.php',
         'Vendidero\\Shiptastic\\DHL\\Api\\LabelRest' => __DIR__ . '/../..' . '/src/Api/LabelRest.php',
-        'Vendidero\\Shiptastic\\DHL\\Api\\LabelSoap' => __DIR__ . '/../..' . '/src/Api/LabelSoap.php',
         'Vendidero\\Shiptastic\\DHL\\Api\\LocationFinder' => __DIR__ . '/../..' . '/src/Api/LocationFinder.php',
         'Vendidero\\Shiptastic\\DHL\\Api\\MyAccount' => __DIR__ . '/../..' . '/src/Api/MyAccount.php',
         'Vendidero\\Shiptastic\\DHL\\Api\\OAuthPaket' => __DIR__ . '/../..' . '/src/Api/OAuthPaket.php',
