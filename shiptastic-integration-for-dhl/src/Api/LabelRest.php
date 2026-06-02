@@ -374,7 +374,7 @@ class LabelRest extends PaketRest {
 		}
 
 		if ( Package::is_crossborder_shipment( $shipment->get_country(), $shipment->get_postcode() ) ) {
-			if ( count( $shipment->get_items() ) > 30 ) {
+			if ( count( $shipment->get_items() ) > 99 ) {
 				throw new \Exception( esc_html( sprintf( _x( 'Only %1$s shipment items can be processed, your shipment has %2$s items.', 'dhl', 'shiptastic-integration-for-dhl' ), 30, count( $shipment->get_items() ) ) ) );
 			}
 
@@ -545,6 +545,26 @@ class LabelRest extends PaketRest {
 					$result = new ShipmentError();
 
 					foreach ( $shipment_data['validationMessages'] as $message ) { // phpcs:ignore WordPress.NamingConventions.ValidVariableName.UsedPropertyNotSnakeCase
+						$message = wp_parse_args(
+							$message,
+							array(
+								'validationMessage' => '',
+								'validationState'   => 'Error',
+								'property'          => '',
+							)
+						);
+
+						/**
+						 * Ignore soft-length warnings (seems like DHL shows this warning before max chars are reached)
+						 */
+						if ( in_array( $message['validationMessage'], array( 'The value entered is too long and has been shortened.', 'Der eingegebene Wert ist zu lang und wurde gekürzt.' ), true ) ) {
+							continue;
+						}
+
+						if ( ! empty( $message['property'] ) ) {
+							$message['validationMessage'] = "{$message['property']}: {$message['validationMessage']}";
+						}
+
 						$result->add_soft_error( 'label-soft-error', $message['validationMessage'] ); // phpcs:ignore WordPress.NamingConventions.ValidVariableName.UsedPropertyNotSnakeCase
 					}
 				}
